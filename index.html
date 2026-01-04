@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>LRU Cache</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LRU Cache Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>LRU Cache Web Project</h1>
 
-<h1>LRU Cache Demo</h1>
+    <div class="cache-container">
+        <input type="text" id="key" placeholder="Key">
+        <input type="text" id="value" placeholder="Value">
+        <button id="add-btn">Add to Cache</button>
+        <button id="show-btn">Show Cache</button>
+    </div>
 
-<input id="key" placeholder="Enter key">
-<button onclick="add()">Add</button>
+    <h2>Cache Contents:</h2>
+    <ul id="cache-list"></ul>
 
-<p id="output"></p>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
